@@ -2,23 +2,57 @@ body{
     background-color: black;
 }
 
-/* @media screen and (max-width: 992px) { */
-    .card{
-        
-        width: 25rem;
-        height: 60%;
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        /* background-color: black; */
-    
+.card{
+    border-radius: 5%;
+    width: 25rem;
+    height: 60%;
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+}
+
+
+.card-body{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    align-content: flex-start;
+    padding: 10%;
+    margin: 0% 0% 0% 0%;
+}
+
+#user_field,#pass_field{
+    margin: 0 1% 8% 1% ;
+}
+#user_box,#pass_box{
+    padding: 0 20 0 10;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    width: 100%;
+    height: 15%;
+    border-style: solid;
+    border-radius: 0%;
+    border-color: gray;
+}
+#cont_btn{
+    width: 100%;
+    height: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0px auto;
+}
+#user_txt,#pass_txt{
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 411px){   
+    body{
+        background-color:black;
     }
-  /* } */
-@media screen and (max-width: 600px) {
     .card{
-        width: 70%;
-        height: 60%;
-        margin: 0 auto;
-        /* background-color: black; */
+    border-radius: 5%;
+    width: 90%;
+    height: 50%;
+    margin: 25% 0 25% 0; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
     }
 }
